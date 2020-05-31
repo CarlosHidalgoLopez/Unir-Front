@@ -231,26 +231,26 @@ header .container .wrapper-text p.text {
 .info-last buttonhover {
   background-color: #669db7;
 }
-footer {
+footer .container {
   background-color: #0E1C27;
   padding: 30px;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
 }
-footer span {
+footer .container span {
   margin-left: 10px;
 }
-footer .iconos svg {
+footer .container .iconos svg {
   margin-left: 10px;
 }
-footer .iconos svg:hover {
+footer .container .iconos svg:hover {
   cursor: pointer;
   opacity: 0.8;
 }
-footer path#Facebook,
-footer #Twitter,
-footer #LinkedIn {
+footer .container path#Facebook,
+footer .container #Twitter,
+footer .container #LinkedIn {
   fill: white;
   width: 20px;
   height: 20px;
@@ -339,6 +339,11 @@ footer #LinkedIn {
 }
 .panel-footer.second {
   background-color: #65bce4 !important;
+}
+.container {
+  max-width: 1366px;
+  margin-left: auto!important;
+  margin-right: auto!important;
 }
 /*====================================
       =            BREAK POINTS            =
